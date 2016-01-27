@@ -4,7 +4,7 @@ var Account = require('../models/account');
 
 // get home page
 router.get('/', function (req, res) {
-  res.render('index', { user : req.user, title: 'asdasdasdAuthentication Template', description: 'A simple template for use with express.js and mongoose.js. Made with bootstrap.css', active: 'home' });
+  res.render('index', { user : req.user, title: 'Authentication Template', description: 'A simple template for use with express.js and mongoose.js. Made with bootstrap.css', active: 'home' });
 });
 
 // get user list page
